@@ -1,5 +1,4 @@
 from array import array
-from copy import deepcopy
 import numpy as np
 import nashpy as nash
 # Create the payoff matrix
@@ -8,7 +7,7 @@ B = np.array([[2, 0], [0, 4]])  # B is the column player
 game2 = nash.Game(A, B)
 game2
 # Find the Nash Equilibrium with Support Enumeration
-def getEquilibrium(): return game2.support_enumeration()
+getEquilibrium= lambda: game2.support_enumeration()
 
 
 print("3 lineas de salida")
@@ -24,7 +23,6 @@ for item in eq:
 eq = getEquilibrium()
 sigma_r, sigma_c = [array for array in eq][-1]
 pd = nash.Game(A, B)
-pd[sigma_r, sigma_c]
 
 print("punto de equilibrio con estrategias mixtas")
 print(pd[sigma_r, sigma_c])
