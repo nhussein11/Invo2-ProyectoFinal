@@ -40,8 +40,39 @@
 ## Unidad 2
 
 - ### Arbol de Mínima Expansion
+  El árbol de expansión de peso mínimo es aquel que comienza desde un vértice y encuentra todos sus nodos accesibles y las relaciones en conjunto que permiten que se conecten dichos nodos con el menor peso posible
+  Dado un grafo conexo, no dirigido y con pesos en las aristas, un árbol de expansión mínima es un árbol compuesto por todos los vértices y cuya suma de sus aristas es la de menor peso. Al ejemplo anterior le agregamos pesos a sus aristas y obtenemos los arboles de expansiones siguientes:
+  De la imagen anterior el árbol de expansión mínima seria el primer árbol de expansión cuyo peso total es 6.
+
+  El problema de hallar el Árbol de Expansión Mínima (MST) puede ser resuelto con varios algoritmos, los mas conocidos con Prim y Kruskal ambos usan técnicas voraces (greedy).
+  ![image](https://user-images.githubusercontent.com/80422357/200202445-ff866b66-3998-4a28-8131-fafa84f49210.png)
+
 - ### Flujo Máximo
+  El problema del Flujo Máximo consiste:  Dado un grafo dirigido con pesos,  G = (V, A,W),  que representa las capacidades máximas de los canales, un nodo de inicio S  y otro de fin T  en V , se trata de encontrar la cantidad máxima de flujo que puede circular desde S  hasta T.
+  Las aristas representan canales por los que puede circular cierta cosa: transmisión de datos, redes de corriente eléctrica, líneas de oleoductos,  agua, automóviles, etc.
+  Los pesos de las aristas representan la capacidad máxima de un canal: velocidad de una conexión, cantidad máxima de tráfico, voltaje de una línea eléctrica, volumen máximo de agua, etc.
+  
+  ![image](https://user-images.githubusercontent.com/80422357/200202568-d14fc476-45d2-47a9-885f-ccf65d92cc50.png)
+
 - ### Ruta Crítica
+  El método de la ruta crítica (CPM, por sus siglas en inglés) es una técnica que te permite identificar las tareas que se necesitan para realizar un proyecto.
+  La ruta crítica en la gestión de proyectos es la secuencia más larga de actividades que deben finalizarse a tiempo para completar la totalidad del proyecto.
+
+  El método de la ruta crítica es una técnica que te permite identificar las tareas necesarias para finalizar un proyecto y determinar cierta flexibilidad en el cronograma. Una ruta crítica en la gestión de proyectos es la secuencia más larga de actividades que deben finalizarse a tiempo para completar todo el proyecto. Cualquier retraso en las tareas críticas provocará el retraso del resto del proyecto.
+
+  El método de la ruta crítica tiene como fin identificar las tareas más importantes del cronograma del proyecto, detectar las dependencias de las tareas y calcular la duración de las tareas.
+
+  El método de la ruta crítica fue desarrollado a fines de la década de 1950 como un método para dar solución al aumento de los costos producido por la planificación ineficiente. Desde entonces, se usa con frecuencia para planificar proyectos y priorizar tareas. Te ayuda a desglosar tareas complejas en tareas individuales y a tener una idea general de la flexibilidad de un proyecto
+  ![image](https://user-images.githubusercontent.com/80422357/200202624-f295682c-fa9a-4766-944c-ee333dc912fe.png)
+
 - ### Ruta más Corta
+  Con el algoritmo de Dijkstra, puedes encontrar la ruta más corta o el camino más corto entre los nodos de un grafo. Específicamente, puedes encontrar el camino más corto desde un nodo (llamado el nodo de origen) a todos los otros nodos del grafo, generando un árbol del camino más corto.
+
+  Este algoritmo es usado por los dispositivos GPS para encontrar el camino más corto entre la ubicación actual y el destino del usuario. Tiene amplias aplicaciones en la industria, especialmente en aquellas áreas que requieren modelar redes.
+  Aspectos básicos del algoritmo de Dijkstra
+  - El algoritmo de Dijkstra básicamente inicia en el nodo que escojas (el nodo de origen) y analiza el grafo para encontrar el camino más corto entre ese nodo y todos los otros nodos en el grafo.
+  - El algoritmo mantiene un registro de la distancia conocida más corta desde el nodo de origen hasta cada nodo y actualiza el valor si encuentra un camino más corto.
+  - Una vez que el algoritmo ha encontrado el camino más corto entre el nodo de origen y otro nodo, ese nodo se marca como "visitado" y se agrega al camino.
+  - El proceso continúa hasta que todos los nodos en el grafo han sido añadidos al camino. De esta forma, tenemos un camino que conecta al nodo de origen con todos los otros nodos siguiendo el camino más corto posible para llegar a cada uno de ellos.
 
 ## Unidad 3
