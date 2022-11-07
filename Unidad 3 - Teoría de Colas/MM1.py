@@ -1,7 +1,8 @@
 #para una distribucion Poisson
+
 lamda = 20
 mu = 30
-Q_servidores = 1
+Q_servidores = 3
 
 P = []
 C = []
