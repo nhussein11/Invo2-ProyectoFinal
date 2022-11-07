@@ -1,6 +1,4 @@
 #Importar las librerías necesarias
-# !pip install criticalpath
-
 from criticalpath import Node
 import datetime
 import pandas as pd

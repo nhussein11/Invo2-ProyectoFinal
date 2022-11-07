@@ -5,7 +5,7 @@ capacities = [20, 30, 10, 40, 30, 10, 20, 5, 20]
 max_flow = pywrapgraph.SimpleMaxFlow()
 for i in range(0, len(start_nodes)):
     max_flow.AddArcWithCapacity(start_nodes[i], end_nodes[i], capacities[i])
-# Find the maximum flow between node 0 and node 4.
+# flujo maximo entre nodos 0  y 4.
 if max_flow.Solve(0, 4) == max_flow.OPTIMAL:
     print('Max flow:', max_flow.OptimalFlow())
     print('')

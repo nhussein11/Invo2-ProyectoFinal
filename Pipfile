@@ -5,7 +5,11 @@ name = "pypi"
 
 [packages]
 numpy = "*"
+ortools="9.3.10459"
 nashpy = "*"
+criticalpath = "*"
+pandas = "1.5.1"
+matplotlib = "*"
 [dev-packages]
 autopep8 = "*"
 
