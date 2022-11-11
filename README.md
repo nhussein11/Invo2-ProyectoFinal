@@ -76,3 +76,29 @@
   - El proceso continúa hasta que todos los nodos en el grafo han sido añadidos al camino. De esta forma, tenemos un camino que conecta al nodo de origen con todos los otros nodos siguiendo el camino más corto posible para llegar a cada uno de ellos.
 
 ## Unidad 3
+
+Los actores principales en una situación de colas son el liente y el servidor. Los clientes llegan a una nstalación (servicio) desde de una fuente. Al llegar, n cliente puede ser atendido de inmediato o esperar n una cola si la instalación está ocupada.
+![image](https://user-images.githubusercontent.com/80418452/201412465-8c867d1b-eb55-49ac-948d-155be7946ba6.png)
+
+### Propiedad de Falta de Memoria
+La propiedad totalmente aleatoria de la exponencial se onoce como olvido o falta de memoria. Dado que f(t) es distribución exponencial del tiempo t, entre eventos ucesivos (llegadas), si S es el intervalo desde la ocurrencia el último evento
+![image](https://user-images.githubusercontent.com/80418452/201412684-b69e339b-31fd-4e86-9495-a5e77f28fbbf.png)
+
+![image](https://user-images.githubusercontent.com/80418452/201413345-9b7c17d8-6fd0-4f1a-a2af-de65f5ab7e76.png)
+
+### rincipio de tasa de entrada igual la tasa de salida
+
+![image](https://user-images.githubusercontent.com/80418452/201413551-cbb1fad8-ddb7-4548-a09e-19a52fa8e18a.png)
+
+
+### robabilidades de Estado Estable
+
+Cuando un modelo de líneas de espera se basa en el proceso de acimiento y muerte, de manera que el estado del sistema
+n representa el numero de clientes en el sistema de colas, las medidas clave de desempeño del sistema (L, Lq, W y Wq) se pueden obtener de inmediato después de calcular las Pn mediante las formulas anteriores.
+
+![image](https://user-images.githubusercontent.com/80418452/201413910-2f63e0fe-4909-469e-8702-650fc612ee6b.png)
+
+
+
+
+
